@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <!-- 1.设置视口-->
+    <meta name="viewport" content="width=device-width,initial">
+    <!-- 2.导入css文件-->
+    <link rel="stylesheet" href="../css/bootstrap.css"/>
+    <link rel="stylesheet" href="./css/index.css"/>
+    <link rel="stylesheet" href="./css/comm.css">
+    <!-- 3.导入js文件,有先后顺序-->
+    <script src="../js/jquery.min.js"></script>
+    <script src="../js/popper.min.js"></script>
+    <script src="../js/bootstrap.min.js"></script>
+</head>
+<body>
+<!--导入头部信息-->
+<header>
+    <iframe class="my_header_wh" src="beader.html" frameborder="0"></iframe>
+</header>
+<!--创建变宽字符串-->
+<div class="container-fluid">
+    <div>
+        <!-- 导入第一张大图,并导入外部属性-->
+        <img class="my_img_wh1" src="../img/index/jpg文件/1.jpg" alt="">
+        <!-- 导入第一张图片下的三张小图-->
+        <div>
+            <!-- 图一至图三宽高以及定位属性-->
+            <img class="my_img_wh2" src="../img/index/png文件/1.png" alt="">
+            <img class="my_img_wh3" src="../img/index/png文件/8.png" alt="">
+            <img class="my_img_wh4" src="../img/index/png文件/9.png" alt="">
+        </div>
+        <!-- 第一张大图右下角的文字-->
+        <p class="my_img_right">产品外观以实物为准，本公司保留对产品外观及技术规格加以改进和改变的权利，详情请以官网信息为准。</p>
+    </div>
+    <div>
+        <!-- 导入设置第二张大图的属性-->
+        <img class="my_img1_wh1" src="../img/index/jpg文件/2.jpg" alt="">
+        <!-- 设置图1 的p标签 文字-->
+        <p class="my_p_color">ICE2.0 立体多维散热系统</p>
+        <p class="my_p_color1 ">内置风扇的智能手机</p>
+        <!-- 设置图2 的p标签 文字-->
+        <p class="my_p1_color1">5000mAh电池+27W快充</p>
+        <p class="my_p1_color2 ">充电十分钟 游戏一小时</p>
+        <!-- 设置图3 的p标签 文字-->
+        <p class="my_p2_color1">骁龙855+最大12GB运存</p>
+        <p class="my_p2_color2 ">芯潮澎湃 火力全开</p>
+        <!-- 设置图4 的p标签 文字-->
+        <p class="my_p3_color1">6.65" 90Hz Amoled屏</p>
+        <p class="my_p3_color2 ">驰骋疆场 一触即发</p>
+        <!-- 设置图5 的p标签 文字-->
+        <p class="my_p4_color1">双BOX立体声+4D震感</p>
+        <p class="my_p4_color2 ">听声辨位 身临其竞</p>
+        <!-- 设置图6 的p标签 文字-->
+        <p class="my_p5_color1">RedMagic OS 2.0</p>
+        <p class="my_p5_color2 ">一键入魔 掌控全局</p>
+    </div>
+      <div>
+          <!-- 引入外部属性设置第三张大图的样式-->
+        <img class="my_img2_wh1" src="../img/index/jpg文件/3.jpg" alt="">
+          <!-- 图三的标题元素-->
+        <P class="my_h2_1 h2">ICE2.0 立体多维散热系统</P>
+          <!-- 图三的详情-->
+        <p class="my_font_p2 my_details">内置重约1g的超轻纳米材料高效能离心风扇，采用液体轴承技术，最高转速达14000、静音、低功耗、经久耐用。风扇主动散热区覆盖主发热区域，<br>配合液冷管+高导热铜箔+多层石墨烯+金属机身，可有效覆盖全部发热部件，开创手机散热新篇章，有效提升CPU最大性能运行时间，让你尽情畅游，轻松竞技。</p>
+          <!-- 当前ul设置图三的样式详情-->
+          <ul class="breadcrumb my_ul_block justify-content-around d-flex">
+            <li class="border-0">
+                <P class="my_font_p1">32000mm²</P>
+                <p class="my_font_p2">散热面积</p>
+            </li>
+            <li>
+                <p class="my_font_p1">提升500%</p>
+                <p class="my_font_p2">换热系数</p>
+            </li>
+            <li>
+                <p class="my_font_p1">降低16°C</p>
+                <p class="my_font_p2">CPU核心温度</p>
+            </li>
+            <li>
+               <p class="my_font_p1">离心风扇</p>
+                <p class="my_font_p2">每秒置换出机身同体积的空气</p>
+            </li>
+            <li>
+                <p class="my_font_p1">3万小时</p>
+                <p class="my_font_p2">风扇寿命</p>
+            </li>
+        </ul>
+          <!-- 此ul设置图三下的第一排的两个gif动图-->
+          <ul class="list-unstyled d-flex my-0 my_gif_position">
+              <li>
+                  <!-- 图1 以及下面的p标签元素-->
+                  <img class="my_gif_wh pb-1" src="../img/index/gif文件/1.gif" alt=""/>
+                  <p class="my_gif_p">ICE2.0多维立体散热系统</p>
+              </li>
+              <li>
+                  <!-- 图2 以及下面的p标签元素-->
+                  <img class="my_gif_wh ml-3 pb-1" src="../img/index/gif文件/2.gif" alt=""/>
+                  <p class="my_gif_p">高效能离心风扇</p>
+              </li>
+          </ul>
+          <!-- 此ul设置图三下的第二排的两个gif动图-->
+        <ul class="list-unstyled d-flex my-0 my_gif_position1">
+            <li>
+                <img class="my_gif_wh pb-1" src="../img/index/gif文件/3.gif" alt=""/>
+                <p class="my_gif_p">高导热液冷管</p>
+            </li>
+            <li>
+                <img class="my_gif_wh ml-3 pb-1" src="../img/index/gif文件/4.gif" alt=""/>
+                <p class="my_gif_p">近黑体材质</p>
+            </li>
+        </ul>
+        <p class="my_right">*整套散热系统降温效果等核心数据来自努比亚实验室。</p>
+        <p class="my_right1">*3万小时为40℃、15%~65%湿度场景下的理论数据。</p>
+</div>
+  <div>
+      <img class="my_img3_wh1" src="../img/index/jpg文件/4.jpg" alt=""/>
+  </div>
+<footer>
+  <iframe class="my_footer_wh" src="floor.html" frameborder="0"></iframe>
+</footer>
+</body>
+</html>
