@@ -1,0 +1,29 @@
+.my_small{
+    font-size: 12px;
+}
+.my_row1{
+    background-color:#efeeeb;
+}
+.my_border_h>a{
+    text-decoration: none;
+    color: #888888;
+    width: 15rem;
+    height:5rem;
+    line-height: 5rem;
+    text-align:center;
+    padding-left: 0px;
+}
+.my_floor{
+    background-color:#fff;
+}
+.my_a_ridaus{
+   border-radius: 3rem;
+}
+.my_img_h1{
+    width: 0.72rem;
+    height:1rem;
+}
+.my_img_h2{
+    width:5rem;
+    height:1.87rem;
+}
