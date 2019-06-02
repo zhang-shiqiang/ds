@@ -1,0 +1,247 @@
+/*设置引入头部的宽高*/
+.my_header_wh{  width:100%;height:8rem;  }
+/*设置引入底部的宽高*/
+.my_footer_wh{  width:100%;height:55rem;  }
+/*设置index页面的第一张大图的宽高*/
+.my_img_wh1{
+    width:93rem;height:35.5rem;
+    position: relative;
+    }
+/*设置第一张图片里右侧小图的属性*/
+@media screen and (min-width:992px) {
+    .my_img_wh2 {
+        width: 9rem;
+        height: 23.7rem;
+        position: absolute;
+        margin-top: -29rem;
+        margin-left: 47rem;
+    }
+
+    /*设置第一张图片里左侧小图的属性*/
+    .my_img_wh3 {
+        width: 9rem;
+        height: 23.7rem;
+        position: absolute;
+        margin-top: -34rem;
+        margin-left: 37.5rem;
+    }
+
+    /*设置第一张图片里上方小图的属性*/
+    .my_img_wh4 {
+        width: 10rem;
+        height: 23.7rem;
+        position: absolute;
+        margin-top: -26rem;
+        margin-left: 33rem;
+    }
+}
+@media screen and (max-width:991px){
+    .my_img_wh2 {
+        width: 7rem;
+        height: 18.7rem;
+        position: absolute;
+        margin-top: -25rem;
+        margin-left: 45.5rem;
+    }
+
+    /*设置第一张图片里左侧小图的属性*/
+    .my_img_wh3 {
+        width: 7rem;
+        height: 18.7rem;
+        position: absolute;
+        margin-top: -28.5rem;
+        margin-left: 38rem;
+    }
+
+    /*设置第一张图片里上方小图的属性*/
+    .my_img_wh4 {
+        width: 8rem;
+        height: 19.7rem;
+        position: absolute;
+        margin-top: -22rem;
+        margin-left: 33.5rem;
+    }
+}
+/*设置右下角字体的样式*/
+.my_img_right{
+    position: absolute;
+    margin-left: 60%;
+    margin-top:-50px;
+    font-size: 12px ;
+    color:#666;
+}
+/*设置第二张大图的属性 宽高*/
+.my_img1_wh1{
+    width:93rem;height:35.5rem;
+    position: relative;
+    }
+        /*下方12个p标签为设置第二张大图里的文字属性*/
+        /*第一张图第一个p标签的属性*/
+        .my_p_color{
+            position: absolute;
+            margin-left:17.2rem;
+            margin-top:-18.5rem;
+            color:#ff1411;
+            font-size:18px;
+        }
+        /*第一张图第二个p标签的属性*/
+        .my_p_color1{
+             position: absolute;
+             margin-left:19.2rem;
+             margin-top:-16.5rem;
+             color:#fff;
+             font-size:15px;
+         }
+        /*第二张图第一个p标签的属性*/
+        .my_p1_color1{
+            position: absolute;
+            margin-left:40.3rem;
+            margin-top:-18.5rem;
+            color:#ff1411;
+            font-size:18px;
+        }
+        /*第二张图第二个p标签的属性*/
+        .my_p1_color2{
+            position: absolute;
+            margin-left:42rem;
+            margin-top:-16.5rem;
+            color:#fff;
+            font-size:15px;
+        }
+        /*第三张图第一个p标签的属性*/
+        .my_p2_color1{
+            position: absolute;
+            margin-left:63.5rem;
+            margin-top:-18.5rem;
+            color:#ff1411;
+            font-size:18px;
+        }
+        /*第三张图第二个p标签的属性*/
+        .my_p2_color2{
+            position: absolute;
+            margin-left:65.8rem;
+            margin-top:-16.5rem;
+            color:#fff;
+            font-size:15px;
+        }
+        /*第四张图第一个p标签的属性*/
+        .my_p3_color1{
+            position: absolute;
+            margin-left:18.3rem;
+            margin-top:-5.3rem;
+            color:#ff1411;
+            font-size:18px;
+        }
+        /*第四张图第二个p标签的属性*/
+        .my_p3_color2{
+            position: absolute;
+            margin-left:20.2rem;
+            margin-top:-3.5rem;
+            color:#fff;
+            font-size:15px;
+        }
+        /*第五张图第一个p标签的属性*/
+        .my_p4_color1{
+            position: absolute;
+            margin-left:41.3rem;
+            margin-top:-5.3rem;
+            color:#ff1411;
+            font-size:18px;
+        }
+        /*第五张图第二个p标签的属性*/
+        .my_p4_color2{
+            position: absolute;
+            margin-left:43rem;
+            margin-top:-3.5rem;
+            color:#fff;
+            font-size:15px;
+        }
+        /*第六张图第一个p标签的属性*/
+        .my_p5_color1{
+            position: absolute;
+            margin-left:65.3rem;
+            margin-top:-5.3rem;
+            color:#ff1411;
+            font-size:18px;
+        }
+        /*第六张图第二个p标签的属性*/
+        .my_p5_color2{
+            position: absolute;
+            margin-left:65.8rem;
+            margin-top:-3.5rem;
+            color:#fff;
+            font-size:15px;
+        }
+/*设置第三张大图的属性*/
+.my_img2_wh1{
+    width:93rem;height:70rem;
+    position: relative;
+}
+/*设置第三张大图下的标题p标签*/
+.my_h2_1{
+    position: absolute;
+    margin-left:35rem;
+    margin-top:-58rem;
+    color:#e53a1f;
+}
+/*设置详情标签*/
+.my_details{
+    position: absolute;
+    margin-left:20rem;
+    margin-top:-53rem;
+    line-height: 1.5em;
+    color:#fff;
+    overflow: hidden;
+}
+/*设置ul相关属性*/
+.my_ul_block{
+    width:58rem;
+    height:5.375rem;
+    position: absolute;
+    margin-top:-47rem;
+    margin-left:15rem;
+    background:transparent;
+}
+/*设置li颜色边框*/
+.my_ul_block>li{
+    border-left:2px solid #f00;
+    color:#fff;
+    padding-left:45px;
+}
+/*设置第三张大图里的动图属性*/
+.my_gif_wh{
+    width: 23rem;
+    height:12.8rem;
+}
+.my_gif_p{
+    color:#ff1313;
+    font-size:18px;
+    text-align:center;
+}
+.my_gif_position{
+     position: absolute;
+     margin-left: 22rem;
+     margin-top: -38rem !important;
+ }
+.my_gif_position1{
+    position: absolute;
+    margin-left: 22rem;
+    margin-top: -23rem !important;
+}
+.my_right{
+     position: absolute;
+     margin-left:73%;
+     margin-top:-90px;
+    color: #666;
+    font-size:15px ;
+ }
+.my_right1{
+    position: absolute;
+    margin-left:73%;
+    margin-top:-60px;
+    color:#666;
+    font-size:15px ;
+}
+.my_img3_wh1{
+    width:93rem;height:57.75rem;
+}
